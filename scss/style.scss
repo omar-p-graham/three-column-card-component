@@ -7,13 +7,16 @@ $card-radius: 10;
 
 body{
     display: grid;
-    justify-content: center;
-    align-items: center;
+    place-items: center;
     font-family: $lexend-deca;
     font-size: f.calcRem(15);
-    height: 100%;
-    overflow-x: hidden;
-    padding: f.calcEm(90) 0;
+    height: 100vh;
+    //overflow-x: hidden;
+
+    @media (max-width: f.calcEm(992)) {
+        height: 100%;
+        padding: f.calcEm(90) 0;
+    }
 }
 
 main{

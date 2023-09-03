@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-3column-card-component-xoLTbxXjWV
 - Live Site URL: https://omar-p-graham.github.io/three-column-card-component/
 
 ### Built with
