@@ -1,0 +1,50 @@
+@forward 'includes';
+@use './includes/functions' as f;
+
+$lexend-deca: 'Lexend Deca', sans-serif;
+$big-shoulders-display: 'Big Shoulders Display', cursive;
+$radius: 10;
+
+body{
+    display: grid;
+    place-items: center;
+    font-family: $lexend-deca;
+    font-size: f.calcRem(15);
+    height: 100vh;
+    overflow-x: hidden;
+    padding: f.calcEm(20);
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: clamp(f.calcEm(344),100%,f.calcEm(1440));
+    height: f.calcEm(500);
+
+    .card{
+        display: grid;
+        justify-content: center;
+        gap: f.calcEm(20);
+        width: f.calcEm(305);
+        color: var(--white);
+        padding: f.calcEm(44);
+
+        &#card1{background: var(--bright-orange);}
+        &#card2{background: var(--dark-cyan);}
+        &#card3{background: var(--very-dark-cyan);}
+        h1{
+            font-family: $big-shoulders-display;
+            text-transform: uppercase;
+            font-size: f.calcRem(40);
+        }
+        button{
+            width: 50%;
+            border: 1px solid var(--white);
+            border-radius: f.calcRem($radius);
+        }
+    }
+}
+
+.attribution {font-size: 11px; text-align: center; display: none;}
+.attribution a {color: var(--attribution-blue);}
