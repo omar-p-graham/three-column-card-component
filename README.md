@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![desktop view - 1366px](./screenshots/desktop.png)
-![mobile view - 375px](./screenshots/mobile.png)
+![desktop view - 1440px](./images/screenshots/desktop.png)
+![mobile view - 375px](./images/screenshots/mobile.png)
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-
 - Live Site URL: https://omar-p-graham.github.io/three-column-card-component/
 
 ### Built with
