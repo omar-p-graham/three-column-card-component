@@ -11,7 +11,6 @@ body{
     font-family: $lexend-deca;
     font-size: f.calcRem(15);
     height: 100vh;
-    //overflow-x: hidden;
 
     @media (max-width: f.calcEm(992)) {
         height: 100%;
@@ -89,6 +88,7 @@ main{
             text-transform: uppercase;
             font-size: f.calcRem(40);
         }
+        p{color: var(--white-pale);}
         button{
             width: f.calcEm(150);
             height: f.calcEm(50);
@@ -99,5 +99,5 @@ main{
     }
 }
 
-.attribution {font-size: 11px; text-align: center; display: none;}
+.attribution {font-size: 11px; text-align: center;}
 .attribution a {color: var(--attribution-blue);}
